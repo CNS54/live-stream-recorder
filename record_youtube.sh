@@ -1,7 +1,7 @@
 #!/bin/bash
 # YouTube Live Stream Recorder
 
-if [[ ! -n "$1" ]]; then
+if [ ! -n "$1" ]; then
   echo "usage: $0 youtube_channel_id|live_url [format] [loop|once] [interval]"
   exit 1
 fi
